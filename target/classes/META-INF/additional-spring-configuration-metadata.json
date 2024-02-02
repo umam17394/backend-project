@@ -1,0 +1,5 @@
+{"properties": [{
+  "name": "plan-api.messages.plan-save-succ",
+  "type": "java.lang.String",
+  "description": "A description for 'plan-api.messages.plan-save-succ'"
+}]}

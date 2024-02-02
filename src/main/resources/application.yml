@@ -1,0 +1,23 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://18.61.3.203:3306/MINI_PROJECT_01_DB
+    username: devops17
+    password: devops17
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+server:
+  port: 8080
+
+plan-api:
+  messages:
+    planSaveSucc: Plan Saved Successfully 😃
+    planSaveFail: Plan Failed to Save😥
+    PlanUpdateSucc: Plan Updated Successfully 😃
+    PlanUpdateFail: Plan Failed to Update 😥
+    PlanDeleteSucc: Plan Deleted Successfully 😃
+    PlanDeleteFail: Plan Failed to Delete 😥
+    PlanStatusChangeSuccc: Plan Status Changed Successfully 😃
+    PlanStatusChageFail: Plan Status Change Failed 😥

@@ -1,0 +1,12 @@
+/home/ec2-user/javaproject/Mini1TestedProj/src/main/java/com/project/Application.java
+/home/ec2-user/javaproject/Mini1TestedProj/src/main/java/com/project/binding/PlanData.java
+/home/ec2-user/javaproject/Mini1TestedProj/src/main/java/com/project/repo/PlanMasterRepo.java
+/home/ec2-user/javaproject/Mini1TestedProj/src/main/java/com/project/service/PlanService.java
+/home/ec2-user/javaproject/Mini1TestedProj/src/main/java/com/project/entity/PlanMasterEntity.java
+/home/ec2-user/javaproject/Mini1TestedProj/src/main/java/com/project/controller/PlanController.java
+/home/ec2-user/javaproject/Mini1TestedProj/src/main/java/com/project/utils/PdfUtils.java
+/home/ec2-user/javaproject/Mini1TestedProj/src/main/java/com/project/repo/PlanCategoryRepo.java
+/home/ec2-user/javaproject/Mini1TestedProj/src/main/java/com/project/entity/PlanCategoryEntity.java
+/home/ec2-user/javaproject/Mini1TestedProj/src/main/java/com/project/service/PlanServiceImpl.java
+/home/ec2-user/javaproject/Mini1TestedProj/src/main/java/com/project/properties/PlanProperties.java
+/home/ec2-user/javaproject/Mini1TestedProj/src/main/java/com/project/binding/PlanResponceData.java
