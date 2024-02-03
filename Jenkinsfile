@@ -21,7 +21,8 @@ pipeline {
             steps {
                 sh 'docker push prasadchandu/java:spring-v1'
             }
-        stage('docker push') {
+      }
+        stage('sonar') {
             steps {
                 mvn clean verify sonar:sonar \
                   -Dsonar.projectKey=project-M1 \
