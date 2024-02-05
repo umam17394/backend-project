@@ -1,11 +1,10 @@
-FROM maven:3.6.1-jdk-8-slim AS build
-RUN mkdir -p /workspace
-WORKDIR /workspace
-COPY pom.xml /workspace
-COPY src /workspace/src
-RUN mvn -f pom.xml clean package
+FROM maven:3.9.6-sapmachine-17 AS build
+COPY src /home/app/src
+COPY pom.xml /home/app
+RUN mvn -f /home/app/pom.xml install compile clean test package
 
-FROM openjdk:8-alpine
-COPY --from=build /workspace/target/*.jar app.jar
+# Package stage
+FROM eclipse-temurin:17-jdk
+COPY --from=build /home/app/target/*.jar /app.jar
 EXPOSE 8080
-ENTRYPOINT ["java","-jar","app.jar"]
+ENTRYPOINT ["java","-jar","/app.jar"]
