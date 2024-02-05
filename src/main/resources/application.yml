@@ -1,7 +1,7 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://18.61.3.203:3306/MINI_PROJECT_01_DB
+    url: jdbc:mysql://mariadb.default:3306/MINI_PROJECT_01_DB
     username: devops17
     password: devops17
   jpa:
