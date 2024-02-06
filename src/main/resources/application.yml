@@ -2,8 +2,8 @@ spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://mariadb.default:3306/MINI_PROJECT_01_DB
-    username: devops17
-    password: devops17
+    username: root
+    password: root@123
   jpa:
     hibernate:
       ddl-auto: update
